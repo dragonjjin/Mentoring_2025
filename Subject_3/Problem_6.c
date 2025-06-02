@@ -14,7 +14,7 @@ int main(void) {
 
     scanf(" %c %c", &from, &to);
 
-    for (size_t i = 0; str[i] != '\0'; i++) {
+    for (int i = 0; str[i] != '\0'; i++) {
         if (str[i] == from) {
             str[i] = to;
         }
